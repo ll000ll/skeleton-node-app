@@ -1,0 +1,23 @@
+{
+	// server runs on that port
+	port: 3000,
+
+    // mongodb connection
+    mongoose: 'mongodb://localhost/skeletonApp',
+
+    // one of [ fatal, error, info, debug, trace, warn ] 
+	loglevel: 'debug',
+
+    // log anything
+    logEnabled: true,
+
+    // paginator settings
+    pagination: {
+        limit: 10,
+        displayedPages: 3,
+        itemsPerPage: 3
+    },
+
+    // token exp in that many seconds 
+    resetTokenExpiration: 3600000, // 1 h
+}

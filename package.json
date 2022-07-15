@@ -14,5 +14,11 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.19.0"
+  },
+  "dependencies": {
+    "config-extend": "^0.1.1",
+    "glob": "^8.0.3",
+    "json5": "^2.2.1",
+    "path": "^0.12.7"
   }
 }
